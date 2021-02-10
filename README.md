@@ -26,7 +26,7 @@ ext install flymin.gruvbox
 
 ### Screenshots
 
-![screenshots](images/screenshots.png)
+![screenshots](https://github.com/flymin/vscode-theme-gruvbox/raw/master/images/screenshots.png)
 
 ## Credits
 
