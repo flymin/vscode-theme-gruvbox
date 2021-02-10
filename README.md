@@ -2,7 +2,7 @@
 
 This repo contains two self-used theme for vscode, especially designed for Python with semantic highlighting.
 
-- Monokai: based on the official default Monokai theme, but colors show respect to Pycharm highlighting  under Mac system.
+- Monokai-pycharm: based on the official default Monokai theme, but colors show respect to Pycharm highlighting  under Mac system.
 - Gruvbox: based on the original repo, only reconfigure for semantic highlighting with Python.
 
 
@@ -21,7 +21,7 @@ Launch *Quick Open*
 Paste the following command and press `Enter`:
 
 ```
-ext install flymin.gruvbox
+ext install flymin.gruvbox-MonokaiPycharm
 ```
 
 ### Screenshots
@@ -31,5 +31,5 @@ ext install flymin.gruvbox
 ## Credits
 
 - Special thank to [Pavel Pertsev](https://github.com/morhetz), the creator of [gruvbox](https://github.com/morhetz/gruvbox) original theme.
-- This version of gruvbox is credited to [JD](https://github.com/jdinhify).
+- This version of gruvbox is credited to [JD](https://github.com/jdinhify) and original version [Gruvbox Theme](https://github.com/jdinhify/vscode-theme-gruvbox).
 

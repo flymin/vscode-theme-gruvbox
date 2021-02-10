@@ -1,7 +1,7 @@
 {
-	"name": "gruvbox",
-	"displayName": "Gruvbox Theme",
-	"description": "Gruvbox Theme",
+	"name": "gruvbox-MonokaiPycharm",
+	"displayName": "Gruvbox Monokai-pycharm",
+	"description": "Gruvbox Monokai-pycharm",
 	"version": "1.0.0",
 	"author": "flymin (https://github.com/flymin)",
 	"contributors": [
