@@ -2,10 +2,10 @@
 	"name": "gruvbox-MonokaiPycharm",
 	"displayName": "Gruvbox Monokai-pycharm",
 	"description": "Gruvbox Monokai-pycharm",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "flymin (https://github.com/flymin)",
 	"contributors": [
-	  	"jdinhify (https://github.com/jdinhify)",
+	  "jdinhify (https://github.com/jdinhify)",
 		"eximus (https://github.com/3ximus)",
 		"Josh Addington (https://github.com/JoshAddington)",
 		"michaelboulton (https://github.com/michaelboulton)",
@@ -22,6 +22,15 @@
 		"Themes"
 	],
 	"icon": "images/icon.png",
+  "galleryBanner": {
+		"color": "#3c3836",
+		"theme": "dark"
+	},
+	"homepage": "https://github.com/flymin/vscode-theme-gruvbox",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/flymin/vscode-theme-gruvbox.git"
+	},
 	"contributes": {
 		"themes": [
 			{
