@@ -1,3 +1,10 @@
+## This Version
+
+This repo contains two self-used theme for vscode, especially designed for Python with semantic highlighting.
+
+- Monokai: based on the official default Monokai theme, but colors show respect to Pycharm highlighting  under Mac system.
+- Gruvbox: based on the original repo, only reconfigure for semantic highlighting with Python.
+
 <h1 align="center">
   <br>
   <a href="https://marketplace.visualstudio.com/items?itemName=jdinhlife.gruvbox">
@@ -21,7 +28,6 @@
     <img src="https://vsmarketplacebadge.apphb.com/rating/jdinhlife.gruvbox.svg?style=flat-square" alt="Ratings">
   </a>
 </p>
-
 ## About
 
 A [gruvbox](https://github.com/morhetz/gruvbox) theme including syntax highlighting and workbench & terminal colors.
@@ -51,7 +57,7 @@ ext install jdinhlife.gruvbox
 
 ### Screenshots
 
-![screenshots](images/screenshots.jpg)
+![screenshots](https://github.com/jdinhify/vscode-theme-gruvbox/raw/master/images/screenshots.jpg)
 
 ## Contributing
 
@@ -67,7 +73,7 @@ We're not users of Light versions so we need help to make light versions better.
 
 ## Release Notes
 
-See [changelog](CHANGELOG.md).
+See [changelog](https://github.com/jdinhify/vscode-theme-gruvbox/blob/master/CHANGELOG.md).
 
 ## Credits
 

@@ -38,12 +38,22 @@
     },
     {
       "scope": [
-        "constant",
+        "constant.numeric",
         "support.constant",
+        "constant.character",
         "variable.arguments"
       ],
       "settings": {
         "foreground": "#d3869b"
+      }
+    },
+    {
+      "scope": [
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#d3869b",
+        "fontStyle": "italic"
       }
     },
     {
@@ -121,7 +131,8 @@
     {
       "scope": "storage",
       "settings": {
-        "foreground": "#fb4934"
+        "foreground": "#83A598",
+        "fontStyle": "italic"
       }
     },
     {
@@ -193,13 +204,13 @@
     {
       "scope": "keyword",
       "settings": {
-        "foreground": "#fb4934"
+        "foreground": "#83A598"
       }
     },
     {
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#fb4934"
+        "foreground": "#83A598"
       }
     },
     {
@@ -215,9 +226,13 @@
       }
     },
     {
-      "scope": "keyword.operator",
+      "scope": [
+        "keyword.operator",
+        "punctuation.section.function.begin.python",
+        "punctuation.separator.colon.python"
+      ],
       "settings": {
-        "foreground": "#8ec07c"
+        "foreground": "#FB4934"
       }
     },
     {
@@ -277,15 +292,21 @@
     },
     {
       "scope": [
-        "entity.name",
+        // "entity.name",
         "entity.static",
         "entity.name.class.static.function",
-        "entity.name.function",
-        "entity.name.class",
-        "entity.name.type"
+        "entity.name.function"
+        // "entity.name.class",
+        // "entity.name.type"
       ],
       "settings": {
-        "foreground": "#fabd2f"
+        "foreground": "#83A598"
+      }
+    },
+    {
+      "scope": "entity.name.function.member",
+      "settings": {
+        "foreground": "#ebdbb2"
       }
     },
     {
@@ -308,7 +329,7 @@
     {
       "scope": "support.function.builtin",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#83A598"
       }
     },
     {
@@ -331,14 +352,23 @@
       "name": "variables",
       "scope": [
         "meta.parameter.type.variable",
-        "variable.parameter",
         "variable.name",
         "variable.other",
-        "variable",
         "string.constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#83a598"
+        "foreground": "#ebdbb2"
+      }
+    },
+    {
+      "name": "parameters",
+      "scope": [
+        "variable.parameter",
+        "parameter"
+      ],
+      "settings": {
+        "foreground": "#fabd2f",
+        "fontStyle": "italic"
       }
     },
     {
@@ -350,29 +380,29 @@
     {
       "scope": "storage.type.class",
       "settings": {
-        "foreground": "#fb4934"
+        "foreground": "#83A598"
       }
     },
-    {
-      "scope": [
-        "punctuation"
-      ],
-      "settings": {
-        "foreground": "#a89984"
-      }
-    },
-    {
-      "scope": "punctuation.quoted",
-      "settings": {
-        "foreground": "#ebdbb2"
-      }
-    },
-    {
-      "scope": "punctuation.quasi",
-      "settings": {
-        "foreground": "#fb4934"
-      }
-    },
+    // {
+    //   "scope": [
+    //     "punctuation"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#ebdbb2"
+    //   }
+    // },
+    // {
+    //   "scope": "punctuation.quoted",
+    //   "settings": {
+    //     "foreground": "#ebdbb2"
+    //   }
+    // },
+    // {
+    //   "scope": "punctuation.quasi",
+    //   "settings": {
+    //     "foreground": "#fb4934"
+    //   }
+    // },
     {
       "name": "URL",
       "scope": [
@@ -388,16 +418,16 @@
     //            LANGUAGE SPECIFIC
     // ----------------------------------------
     // PYTHON ----------------------------------------
-    {
-      "name": "Python function",
-      "scope": [
-        "meta.function.python",
-        "entity.name.function.python"
-      ],
-      "settings": {
-        "foreground": "#8ec07c"
-      }
-    },
+    // {
+    //   "name": "Python function",
+    //   "scope": [
+    //     "meta.function.python",
+    //     "entity.name.function.python"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#8ec07c"
+    //   }
+    // },
     {
       "name": "Python Function and Class definition keywords",
       "scope": [
@@ -406,7 +436,16 @@
         "storage.type.class.python"
       ],
       "settings": {
-        "foreground": "#fb4934"
+        "foreground": "#83A598"
+      }
+    },
+    {
+      "name": "Python Class self",
+      "scope": [
+        "variable.parameter.function.language.special.self.python"
+      ],
+      "settings": {
+        "foreground": "#94558d"
       }
     },
     {
@@ -416,13 +455,13 @@
         "foreground": "#83a598"
       }
     },
-    {
-      "name": "Python Function Arguments",
-      "scope": "meta.function-call.arguments",
-      "settings": {
-        "foreground": "#d5c4a1"
-      }
-    },
+    // {
+    //   "name": "Python Function Arguments",
+    //   "scope": "meta.function-call.arguments",
+    //   "settings": {
+    //     "foreground": "#d5c4a1"
+    //   }
+    // },
     {
       "name": "Python Function decorator",
       "scope": "entity.name.function.decorator",
@@ -442,7 +481,7 @@
     {
       "scope": "keyword.operator.logical",
       "settings": {
-        "foreground": "#fb4934"
+        "foreground": "#83A598"
       }
     },
     {
@@ -1119,5 +1158,6 @@
     "textLink.foreground": "#83a598",
     "textLink.activeForeground": "#458588",
     "debugToolBar.background": "#1d2021"
-  }
+  },
+  "semanticHighlighting":true
 }
